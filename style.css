@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#textInput {
+    position: absolute;
+    left: 50%;
+    translate: -50% 0;
+    margin: 20px 0;
+    font-size: 20px;
+    width: 95%;
+    background-color: hsl(0, 0%, 10%);
+    border: 2px solid hsl(0, 0%, 50%);
+    border-radius: 3px;
+    color: whitesmoke;
+    padding: 15px;
+}
