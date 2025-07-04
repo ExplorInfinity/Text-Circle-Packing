@@ -48,7 +48,7 @@ class Circle {
 }
 
 class CirclePacking {
-    constructor(canvas, text='Hello, World!') {
+    constructor(canvas, text='Keep Exploring!!!') {
         this.canvas = canvas;
         this.context = canvas.getContext('2d');
 
