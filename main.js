@@ -4,7 +4,7 @@ const canvas = document.getElementById('canvas');
 const ctx = canvas.getContext('2d', { willReadFrequently: true });
 
 class Circle {
-    static startRadius = 1;
+    static startRadius = 1.5;
     static growSpeed = 25;
 
     constructor(x, y, startRadius) {
@@ -48,7 +48,7 @@ class Circle {
 }
 
 class CirclePacking {
-    constructor(canvas, text='Keep Exploring!!!') {
+    constructor(canvas, text='Hello, World!') {
         this.canvas = canvas;
         this.context = canvas.getContext('2d');
 
@@ -71,7 +71,7 @@ class CirclePacking {
         this.circles = [];
         this.maxCircles = 5000;
         this.finished = false;
-        this.maxAttempts = 100;
+        this.maxAttempts = 1000;
         this.padding = 2;
         this.windowPadding = 4;
 

@@ -17,9 +17,9 @@ body {
     margin: 20px 0;
     font-size: 20px;
     width: 95%;
-    background-color: hsl(0, 0%, 10%);
+    background-color: hsl(0, 0%, 5%);
     border: 2px solid hsl(0, 0%, 50%);
     border-radius: 3px;
-    color: whitesmoke;
+    color: hsl(0, 0%, 90%);
     padding: 15px;
 }
